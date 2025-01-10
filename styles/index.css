@@ -71,8 +71,13 @@
   }
   .primary-btn{
     background-color: #006A50;
-    color: #FFFFFF;
     padding: 13px 26px;
+    border-radius: 5px;
+    border: none;
+  }
+  .primary-btn a{
+    color: #FFFFFF;
+    text-decoration: none;
   }
   *{
     margin: 0;
@@ -81,11 +86,16 @@
   body{
     background-color: #F1F1F3;
   }
+  
+  header,main{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
   /* nav */
   .nav{
     display: flex;
-    justify-content: space-around;
-    padding: 31px;
+    justify-content: space-between;
+    padding: 24px;
   }
   .logo{
     font-size: 32px;
@@ -96,10 +106,25 @@
     padding: 15px 30px;
     border-radius: 5px;
   }
-  .banner,main{
-    max-width: 1280px;
-    margin: 0 auto;
+  /* banner */
+  .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 60px;
+    border-radius: 5px;
   }
+  .banner-subtitle{
+    /* todo: can't find color in figma */
+    color: #40564c;
+    font-size: 24px;
+  }
+  .banner-tilte{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
   footer{
   background: #FFFFFF;
   }
