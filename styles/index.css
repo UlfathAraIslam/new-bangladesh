@@ -141,14 +141,14 @@
     margin-bottom: 24px;
   }
   /* pillars-of-bangladesh */
-  .pillars-of-bangladeh-item{
+  .card{
     background-color: #FFFFFF;
     border: 1px solid #0e0e0e15;
     border-radius: 16px;
     padding: 24px;
   }
   /* visiton of future */
-  .card{
+  .vision-of-future-card{
     padding: 33px;
     border-radius: 16px;
   }
@@ -172,6 +172,13 @@
   }
   #learn-more-btn-three{
     background-color:#FFC239 ;
+  }
+  /* quote */
+  .quote{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 5px top;
+    padding: 48px 24px;
   }
   footer{
   background: #FFFFFF;
