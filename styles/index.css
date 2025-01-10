@@ -143,6 +143,7 @@
   /* pillars-of-bangladesh */
   .pillars-of-bangladeh-item{
     background-color: #FFFFFF;
+    border: 1px solid #0e0e0e15;
     border-radius: 16px;
     padding: 24px;
   }
