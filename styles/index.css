@@ -185,17 +185,13 @@
     color: #0e0e0e70;
   }
   /* opinion */
-  .opinion-box{
-    background-color: red;
-  }
   .opinion-table{
     width: 100%;
     border-collapse: collapse;
     background-color: #FFFFFF;
-    /* padding: 10px; */
   }
   th,td{
-    /* padding: 14px; */
+    padding: 14px;
     text-align: start;
   }
   select{
@@ -203,6 +199,30 @@
   }
   td{
     border: 1px solid black;
+  }
+  /* recent news */
+  .satellite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 48px;
+    gap: 32px;
+  }
+  .satellite-2{
+    flex-direction: row-reverse;
+  }
+  .satellite>img{
+    border-radius: 16px;
+    margin-bottom: 12px;
+  }
+  .time-date{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .recent-details{
+    margin-bottom: 32px;
   }
   footer{
   background: #FFFFFF;
