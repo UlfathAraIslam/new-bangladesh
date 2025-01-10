@@ -184,6 +184,26 @@
     font-size: 16px;
     color: #0e0e0e70;
   }
+  /* opinion */
+  .opinion-box{
+    background-color: red;
+  }
+  .opinion-table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    /* padding: 10px; */
+  }
+  th,td{
+    /* padding: 14px; */
+    text-align: start;
+  }
+  select{
+    padding: 14px;
+  }
+  td{
+    border: 1px solid black;
+  }
   footer{
   background: #FFFFFF;
   }
