@@ -60,13 +60,18 @@
     color: #0E0E0E;
     margin-bottom: 32px;
   }
-  .card-tilte{
+  .card-container{
+    display: flex;
+    gap: 24px;
+  }
+  .card-title{
     font-size: 20px;
     font-weight: bold;
+    margin: 12px 0;
   }
   .details{
     font-size: 16px;
-    color: 0E0E0E;
+    color: #0e0e0e70;
   }
   .text-center{
     text-align: center;
@@ -99,6 +104,9 @@
   section, .banner{
     margin-bottom: 80px;
   }
+  section>.details{
+    margin-bottom: 32px;
+  }
   /* nav */
   .nav{
     display: flex;
@@ -112,7 +120,7 @@
     color: #006A50;
     border: 1px solid #006A50;
     padding: 15px 30px;
-    border-radius: 5px;
+    border-radius: 16px;
   }
   /* banner */
   .banner{
@@ -133,14 +141,36 @@
     margin-bottom: 24px;
   }
   /* pillars-of-bangladesh */
-  .pillars-of-bangladesh-conteiner{
-    display: flex;
-    gap: 24px;
-  }
   .pillars-of-bangladeh-item{
     background-color: #FFFFFF;
-    border-radius: 5px;
+    border-radius: 16px;
     padding: 24px;
+  }
+  /* visiton of future */
+  .card{
+    padding: 33px;
+    border-radius: 16px;
+  }
+  #card-one{
+    background-color: rgba(84, 144, 245, .2);
+  }
+  #card-two{
+    background-color: #C6E4D6;
+  }
+  #card-three{
+    background-color: #F7EBCF;
+  }
+  .learm-more-btn{
+    margin-top: 24px;
+  }
+  #learn-more-btn-one{
+    background-color:#5490F5 ;
+  }
+  #learn-more-btn-two{
+    background-color:#09A15C ;
+  }
+  #learn-more-btn-three{
+    background-color:#FFC239 ;
   }
   footer{
   background: #FFFFFF;
