@@ -247,7 +247,11 @@
 .input-amount{
   padding: 20px 422px;
   border: none;
-  margin-bottom: 32px;
+  display: block;
+  width: 1032px;
+}
+.donate-btn{
+  margin-top: 32px;
 }
 /* newsletter */
 .newsletter{
