@@ -241,6 +241,10 @@
     padding: 48px;
     gap: 32px;
   }
+.satellite-info-title{
+  font-size: 32px;
+  font-weight: bold;
+}
   .satellite-2{
     flex-direction: row-reverse;
   }
