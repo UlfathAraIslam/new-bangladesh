@@ -254,9 +254,16 @@
   padding: 80px 265px;
   border-radius: 24px;
 }
+.email-subscribe{
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+}
 .email-input{
   padding: 18px;
-  width: 70%;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
   border: none;
   outline: none;
   border-radius: 5px 0 0 5px;
@@ -264,11 +271,6 @@
 .subscribe{
   padding: 18px;
   border-radius: 0 5px 5px 0;
-}
-.email-subscribe{
-  display: flex;
-  gap: 0;
-  margin-bottom: 24px;
 }
 /* footer */
 .footer{
