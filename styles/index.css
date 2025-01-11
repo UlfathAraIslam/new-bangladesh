@@ -75,6 +75,7 @@
   .details{
     font-size: 16px;
     color: #0e0e0e70;
+    margin-bottom: 16px;
   }
   .text-center{
     text-align: center;
@@ -88,19 +89,23 @@
     padding: 13px 26px;
     border-radius: 5px;
     border: none;
-    transition: background-color 0.3s ease;;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
   }
-  .primary-btn:hover,.learn-more-btn:hover {
+  .primary-btn a{
+    text-decoration: none;
+    border: none;
+    color: #FFFFFF;
+  }
+  /* btn hover */
+  .primary-btn:hover,
+  .primary-btn:hover a,
+  .learn-more-btn:hover,
+  #learn-more-btn-one:hover,
+  #learn-more-btn-two:hover, #learn-more-btn-three:hover {
     background-color: #FFFFFF;
     color: #006A50;
     border: 1px solid #006A50;
-  }
-  .primary-btn {
-    color: #FFFFFF;
-    padding: 13px 26px;
-    border-radius: 5px;
-    border: none;
-    text-decoration: none;
   }
   *{
     margin: 0;
@@ -135,6 +140,12 @@
     border: 1px solid #006A50;
     padding: 15px 30px;
     border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .sign-in:hover{
+    background-color: #006A50;
+    color: #FFFFFF;
   }
   /* banner */
   .banner{
@@ -145,8 +156,7 @@
     border-radius: 5px;
   }
   .banner-subtitle{
-    /* todo: can't find color in figma */
-    color: #40564c;
+    color: #0E0E0E50;
     font-size: 24px;
   }
   .banner-tilte{
@@ -172,8 +182,6 @@
     border-radius: 16px;
     transition:background-color 0.3s ease; ;
   }
-  /* hover on vision-of-future-card */
- 
   #card-one:hover{
     background-color: rgba(84, 144, 245, .2);
   }
@@ -184,7 +192,9 @@
     background-color:#F7EBCF;
   }
   .learn-more-btn{
-    margin-top: 24px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    cursor: pointer;
   }
   #learn-more-btn-one{
     background-color:#5490F5 ;
