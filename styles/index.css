@@ -19,7 +19,12 @@
     font-weight: 700;
     font-style: normal;
   }
-
+/* universal class */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   /* shared styles */
   body{
     font-family: 'Fira Sans';
@@ -57,25 +62,14 @@
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
   }
-  .primary-btn a{
-    text-decoration: none;
-    border: none;
-    color: #FFFFFF;
-  }
   /* btn hover */
   .primary-btn:hover,
-  .primary-btn:hover a,
   .learn-more-btn:hover,
   #learn-more-btn-one:hover,
   #learn-more-btn-two:hover, #learn-more-btn-three:hover {
     background-color: #FFFFFF;
     color: #006A50;
     border: 1px solid #006A50;
-  }
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
   }
   body{
     background-color: #F1F1F3;
@@ -229,9 +223,6 @@
   .recent-details{
     margin-bottom: 32px;
   }
-  footer{
-  background: #FFFFFF;
-  }
 /* donate */
 .donate{
   display: flex;
@@ -283,6 +274,7 @@
 .footer{
   flex-direction: column;
   padding:50px ;
+  background: #FFFFFF;
 }
 .footer-title{
   font-size: 32px;
