@@ -88,14 +88,24 @@
     padding: 13px 26px;
     border-radius: 5px;
     border: none;
+    transition: background-color 0.3s ease;;
   }
-  .primary-btn a{
+  .primary-btn:hover,.learn-more-btn:hover {
+    background-color: #FFFFFF;
+    color: #006A50;
+    border: 1px solid #006A50;
+  }
+  .primary-btn {
     color: #FFFFFF;
+    padding: 13px 26px;
+    border-radius: 5px;
+    border: none;
     text-decoration: none;
   }
   *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   body{
     background-color: #F1F1F3;
@@ -150,22 +160,30 @@
     border: 1px solid #0e0e0e15;
     border-radius: 16px;
     padding: 24px;
+    transition: background-color 0.3s ease;
+  }
+  .card:hover{
+    background-color:#C6E4D6;
   }
   /* visiton of future */
   .vision-of-future-card{
+    background-color: #ffffff; 
     padding: 33px;
     border-radius: 16px;
+    transition:background-color 0.3s ease; ;
   }
-  #card-one{
+  /* hover on vision-of-future-card */
+ 
+  #card-one:hover{
     background-color: rgba(84, 144, 245, .2);
   }
-  #card-two{
-    background-color: #C6E4D6;
+  #card-two:hover{
+    background-color:#C6E4D6;
   }
-  #card-three{
-    background-color: #F7EBCF;
+  #card-three:hover{
+    background-color:#F7EBCF;
   }
-  .learm-more-btn{
+  .learn-more-btn{
     margin-top: 24px;
   }
   #learn-more-btn-one{
@@ -242,6 +260,9 @@
   padding: 40px;
   border: 1px solid #0E0E0E15;
   border-radius: 16px;
+}
+.donate-item:hover{
+  background-color: #C6E4D6;
 }
 .donate-container{
   display: flex;
