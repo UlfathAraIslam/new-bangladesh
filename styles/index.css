@@ -74,7 +74,7 @@
   }
   .details{
     font-size: 16px;
-    color: #0e0e0e70;
+    color: rgba(14, 14, 14, 0.7);
     margin-bottom: 16px;
   }
   .text-center{
@@ -153,10 +153,10 @@
     justify-content: center;
     align-items: center;
     padding: 80px 60px;
-    border-radius: 5px;
+    border-radius: 24px;
   }
   .banner-subtitle{
-    color: #0E0E0E50;
+    color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
   }
   .banner-tilte{
@@ -214,7 +214,11 @@
   }
   .quote-details{
     font-size: 16px;
-    color: #0e0e0e70;
+    color: rgba(14, 14, 14, 0.8);
+  }
+  .yunus{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
   }
   /* opinion */
   .opinion-table{
@@ -242,6 +246,7 @@
     gap: 32px;
   }
 .satellite-info-title{
+  color: #0E0E0ECC;
   font-size: 32px;
   font-weight: bold;
 }
