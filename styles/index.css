@@ -1,6 +1,6 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.fira-sans-thin {
+/* .fira-sans-thin {
     font-family: "Fira Sans", serif;
     font-weight: 100;
     font-style: normal;
@@ -36,13 +36,13 @@
     font-style: normal;
   }
   
-  .fira-sans-bold {
+  /* .fira-sans-bold {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
-  }
+  } */
   
-  .fira-sans-extrabold {
+  /* .fira-sans-extrabold {
     font-family: "Fira Sans", serif;
     font-weight: 800;
     font-style: normal;
@@ -52,8 +52,11 @@
     font-family: "Fira Sans", serif;
     font-weight: 900;
     font-style: normal;
-  }
+  }  */
   /* shared styles */
+  body{
+    font-family: 'Fira Sans';
+  }
   .title{
     font-size: 40px;
     font-weight: bold;
@@ -227,3 +230,26 @@
   footer{
   background: #FFFFFF;
   }
+/* donate */
+.donate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.donate-item{
+  padding: 40px;
+  border: 1px solid #0E0E0E15;
+  border-radius: 16px;
+}
+.donate-container{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.input-amount{
+  padding: 20px 422px;
+  border: none;
+  margin-bottom: 32px;
+}
